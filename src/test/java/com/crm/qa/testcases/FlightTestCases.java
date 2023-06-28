@@ -25,6 +25,9 @@ public class FlightTestCases extends TestBase {
 		homepage = new HomePage();
 	}
 
+	
+	// test comment added by Iryna	
+	
 	@Test(groups = { "Simple", "UI" })
 	public void TC001_CheckifLogoisPresent() {
 		boolean flag = homepage.isLogoDisplayed();
